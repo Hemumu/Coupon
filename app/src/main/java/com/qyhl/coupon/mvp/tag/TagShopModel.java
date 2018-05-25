@@ -5,6 +5,7 @@ import android.util.Log;
 
 import com.qyhl.coupon.common.Url;
 import com.qyhl.coupon.entity.json.JsonAlbum;
+import com.qyhl.coupon.utils.ContextUtilts;
 import com.qyhl.coupon.utils.JsonGenericsSerializator;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.GenericsCallback;
@@ -34,6 +35,7 @@ public class TagShopModel implements TagShopContract.TagShopModel {
                 .addParams("page", page+"")
                 .addParams("sort", type)
                 .addParams("sex", "1")
+                .tag(ContextUtilts.getInstance().getmContext())
                 .build()
                 .execute(new GenericsCallback<JsonAlbum>(new JsonGenericsSerializator()) {
                     @Override

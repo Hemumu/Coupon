@@ -9,6 +9,7 @@ import com.zhy.http.okhttp.OkHttpUtils;
 
 /**
  * @author helin
+ * 基类 fragment
  */
 public class BaseFragment  extends Fragment{
 
