@@ -17,6 +17,8 @@ import com.zhy.http.okhttp.OkHttpUtils;
 
 
 /**
+ * Activity 基类
+ *
  * Base Activity
  * @author helin
  */
@@ -41,6 +43,11 @@ public class BaseActivity extends AppCompatActivity implements View.OnLayoutChan
      */
     private int screenHeight;
 
+    /**
+     *  Create
+     * @param savedInstanceState
+     * @param persistentState
+     */
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
@@ -54,10 +61,13 @@ public class BaseActivity extends AppCompatActivity implements View.OnLayoutChan
         keyHeight = screenHeight / 3;
     }
 
+    /**
+     * Destory
+     */
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        //页面销毁取消网络请求
+        //取消网络请求
         OkHttpUtils.getInstance().cancelTag(this);
     }
 

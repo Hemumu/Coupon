@@ -1,5 +1,9 @@
 package com.qyhl.coupon.common;
 
+/**
+ * 请求地址
+ * @author  helin
+ */
 public class Url {
 
     /**

@@ -17,9 +17,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
+ * 主界面
  * @author helin
- * <p>
- * 主要界面
  */
 public class MainActivity extends BaseActivity implements HomeContract.HomeView{
 

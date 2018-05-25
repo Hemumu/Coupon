@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 import com.zhy.http.okhttp.callback.IGenericsSerializator;
 
 /**
- * Created by PVer on 2017/10/4.
+ * Created by helin on 2018/05/04.
  */
 
 public class JsonGenericsSerializator implements IGenericsSerializator {

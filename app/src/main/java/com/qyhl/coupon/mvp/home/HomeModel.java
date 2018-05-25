@@ -12,6 +12,8 @@ import com.zhy.http.okhttp.callback.GenericsCallback;
 import okhttp3.Call;
 
 /**
+ * 主页 model
+ *
  * @author helin
  */
 public class HomeModel implements HomeContract.HomeModel {

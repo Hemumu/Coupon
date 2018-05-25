@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
 
 /**
  * @author helin
- * 二级菜单商品
+ * 二级菜单商品列表
  */
 public class TagDetailsActivity extends BaseActivity {
 

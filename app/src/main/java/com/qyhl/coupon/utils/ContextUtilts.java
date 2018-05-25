@@ -3,6 +3,8 @@ package com.qyhl.coupon.utils;
 import android.content.Context;
 
 /**
+ * Context 管理
+ *
  * @author helin
  * @date 2018/05/09
  */

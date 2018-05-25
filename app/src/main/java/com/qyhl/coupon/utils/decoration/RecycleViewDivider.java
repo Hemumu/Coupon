@@ -12,15 +12,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * author：luck
- * project：PictureSelector
- * package：com.luck.picture.adapter
- * email：893855882@qq.com
- * data：16/12/31
- *
  * RecycleView 横向分隔线
  */
-
 public class RecycleViewDivider extends RecyclerView.ItemDecoration {
 
     private Paint mPaint;

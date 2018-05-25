@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * @author helin
+ * 专场
+ *
  */
 public class AlbumPresenter implements AlbumContract.AlbumPresenter {
 

@@ -4,6 +4,11 @@ import com.qyhl.coupon.entity.ShopTagsBean;
 
 import java.util.List;
 
+/**
+ * 主页
+ *
+ * @author
+ */
 public class HomePresenter implements HomeContract.HomePresenter {
 
     private final HomeContract.HomeView mView;

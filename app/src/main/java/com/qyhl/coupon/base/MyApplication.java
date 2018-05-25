@@ -9,8 +9,9 @@ import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
 
 /**
- * /**
- * Created by helin on 2018/05/22.
+ *
+ * @author helin
+ * @date 2018/05/22
  */
 public class MyApplication extends Application {
 

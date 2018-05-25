@@ -5,6 +5,7 @@ import com.qyhl.coupon.entity.ShopDetailsBean;
 import java.util.List;
 
 /**
+ * 标签
  * @author helin
  */
 public class TagShopPresenter implements TagShopContract.TagShopPresenter {

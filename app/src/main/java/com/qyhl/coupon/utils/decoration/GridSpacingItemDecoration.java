@@ -10,16 +10,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by anonymous on 2016/9/9 0009.
- * <p>
- * GridSpacingItemDecoration
- * <p>
- * int spanCount = 3; // 3 columns
- * int spacing = 50; // 50px
- * boolean includeEdge = false;
- * recyclerView.addItemDecoration(new GridSpacingItemDecoration(spanCount, spacing, includeEdge));
  *
- * * RecycleView 网格分割线
+ *  RecycleView 网格分割线
  */
 public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
 

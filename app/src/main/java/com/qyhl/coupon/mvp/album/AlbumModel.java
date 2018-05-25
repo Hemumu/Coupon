@@ -13,6 +13,8 @@ import com.zhy.http.okhttp.callback.GenericsCallback;
 import okhttp3.Call;
 
 /**
+ * 专场 model
+ *
  * @author helin
  */
 public class AlbumModel implements AlbumContract.AlbumModel {
