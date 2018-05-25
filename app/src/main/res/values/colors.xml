@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--dialog-->
+    <color name="common_bg_color">#F2F2FD</color>
+    <color name="press_btn_color">#ddd</color>
+    <color name="white">#ffffff</color>
+
+    <color name="global_background">#e4e4e4</color>
+</resources>
