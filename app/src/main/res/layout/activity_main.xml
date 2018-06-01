@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tl="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/homelayout"
     android:orientation="vertical"
     tools:context=".mvp.home.MainActivity">
 
-    <com.flyco.tablayout.SlidingTabLayout
-        android:id="@+id/group_tabLayout"
+    <com.qyhl.coupon.view.NoScrollViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="@color/colorPrimary"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        tl:tl_indicator_color="#5d4037"
-        tl:tl_indicator_margin_left="2dp"
-        tl:tl_indicator_margin_right="2dp"
-        tl:tl_indicator_style="BLOCK"
-        tl:tl_textSelectColor="@color/white"
-        />
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
     <View
         android:layout_width="match_parent"
-        android:background="#e4e4e4"
-        android:layout_height="1dp"/>
+        android:layout_height="1dp"
+        android:background="@color/global_gray_lv4"/>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/shop_viewPager"
+    <com.qyhl.coupon.view.ltab.HomeTab
+        android:id="@+id/tabbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="49dp"
+        android:background="@color/white" />
+
+
 </LinearLayout>

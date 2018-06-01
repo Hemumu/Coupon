@@ -28,7 +28,6 @@
 
     </style>
 
-
     <style name="EasyListDialogStyle" parent="@android:style/Theme.Dialog">
 
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -57,5 +56,7 @@
         <item name="android:windowExitAnimation">@anim/easy_list_dialog_out</item>
 
     </style>
+
+
 
 </resources>

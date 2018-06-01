@@ -19,7 +19,10 @@ public class BaseFragment  extends Fragment{
         Toast.makeText(this.getContext(),msg,Toast.LENGTH_SHORT).show();
     }
 
-
+    /**
+     * 展示Dialog
+     * @param title
+     */
     public void showSimpleLoading(String title) {
         builder = new LoadingDialog.Builder(this.getActivity());
         builder.setCanceledOnTouchOutside(false);
@@ -28,6 +31,9 @@ public class BaseFragment  extends Fragment{
         builder.show();
     }
 
+    /**
+     * 展示Dialog
+     */
     public void showSimpleLoading() {
         builder = new LoadingDialog.Builder(this.getActivity());
         builder.setCanceledOnTouchOutside(false);
@@ -41,10 +47,16 @@ public class BaseFragment  extends Fragment{
         builder.show();
     }
 
+    /**
+     * 取消Dialog
+     */
     public void dismissLoading() {
         if(builder!=null){
             builder.dismiss();
         }
     }
+
+
+
 
 }
