@@ -4,8 +4,8 @@
     <color name="colorPrimary">#795548</color>
     <color name="colorAccent">#FF4081</color>
 
-
-
+    <color name="global_skip_bg">#30000000</color>
+    <color name="black_35per">#59000000</color>
     <color name="global_black_lv1">#1D1D1D</color>
     <color name="global_black_lv2">#252525</color>
     <color name="global_black_lv3">#212121</color>
@@ -22,5 +22,8 @@
     <color name="white">#ffffff</color>
     <color name="global_background">#e4e4e4</color>
 
+    <!--主色调40%透明度-->
+    <color name="global_base_40per">#66E53935</color>
+    <color name="global_base">#E53935</color>
     <color name="global_base_0">#E53935</color>
 </resources>

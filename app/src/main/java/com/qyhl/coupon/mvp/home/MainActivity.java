@@ -26,7 +26,7 @@ import butterknife.ButterKnife;
 public class MainActivity extends BaseActivity {
 
     /**
-     *
+     * Root View
      */
     @BindView(R.id.homelayout)
     LinearLayout mHomelayout;
@@ -46,10 +46,7 @@ public class MainActivity extends BaseActivity {
      * 菜单名称
      */
     private String[] mMenus = {"首页","订单","我的"};
-
-
     private int[] newSeleIcons = {R.drawable.icon_tab_home_select,R.drawable.icon_circle_pressed,R.drawable.icon_tab_user_select};
-
     private int[] newNormalIcons = {R.drawable.icon_tab_home,R.drawable.icon_circle_default,R.drawable.icon_tab_user};
     private HomePagerAdapter mAdapter;
     /**
@@ -86,6 +83,4 @@ public class MainActivity extends BaseActivity {
         mHomeTabbar.setImgSize(StringUtils.dip2px(this, 25), StringUtils.dip2px(this, 25));
         mHomeTabbar.setupWithViewPager(mViewPager);
     }
-
-
 }
